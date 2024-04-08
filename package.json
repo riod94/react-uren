@@ -1,0 +1,40 @@
+{
+  "name": "react-uren",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "publish": "npm publish --access-public",
+    "build": "npx tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riod94/react-uren.git"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "reactjs",
+    "react-hooks",
+    "utility",
+    "components",
+    "hooks",
+    "state",
+    "frontend"
+  ],
+  "author": "Rio D, Contributors @ github.com/riod94/react-uren.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "react": ">=16.8.0"
+  }
+}
